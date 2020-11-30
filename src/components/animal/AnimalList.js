@@ -8,7 +8,7 @@ import { CustomerContext } from "../Customer/CustomerProvider"
 
 
 
-export const AnimalList = () => {
+export const AnimalList = (props) => {
     // This state changes when `getLocations()` is invoked below
     const { animals, getAnimals } = useContext(AnimalContext)
     const { locations, getLocations } = useContext(LocationContext)
