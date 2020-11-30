@@ -7,16 +7,10 @@
       "id": 1
     },
     {
-      "name": "cb",
+      "name": "Cam",
       "customerId": 1,
-      "locationId": 1,
+      "locationId": 2,
       "id": 2
-    },
-    {
-      "name": "Camden",
-      "customerId": 1,
-      "locationId": 1,
-      "id": 3
     }
   ],
   "customers": [
