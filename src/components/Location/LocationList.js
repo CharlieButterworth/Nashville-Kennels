@@ -3,7 +3,7 @@ import "./Locations.css"
 import { LocationContext } from "./LocationProvider"
 import { Location } from "./Location"
 
-export const LocationList = () => {
+export const LocationList = (props) => {
     // This state changes when `getLocations()` is invoked below
     const { locations, getLocations } = useContext(LocationContext)
 
