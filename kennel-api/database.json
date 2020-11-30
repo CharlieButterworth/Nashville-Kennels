@@ -1,25 +1,22 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle",
+      "name": "Cam",
       "customerId": 1,
-      "locationId": 1
+      "locationId": 2,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Doggo",
-      "breed": "Lab",
-      "customerId": 2,
-      "locationId": 2
+      "name": "cb",
+      "customerId": 1,
+      "locationId": 1,
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Charlie",
-      "breed": "Human",
-      "customerId": 3,
-      "locationId": 2
+      "name": "Camden",
+      "customerId": 1,
+      "locationId": 1,
+      "id": 3
     }
   ],
   "customers": [

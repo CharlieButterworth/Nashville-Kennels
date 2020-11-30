@@ -27,20 +27,22 @@ export const AnimalList = (props) => {
     []
     )
 
-   
-
     return (
-        <div className="animals"> 
+        <div className="animals">
+            <button onClick={() => props.history.push("animals/create")}> Make Appointment </button>
             {
-            animals.map(animal => {
-                const owner = customers.find(c => c.id === animal.customerId)
-                const clinic = locations.find(l => l.id === animal.locationId)
-            
-           return <Animal key={animal.id} location={clinic} customer={owner} animal={animal} />
-            })
-        }   
-            </div>
-            
-        )
+                animals.map(animal => {
+                    const owner = customers.find(customer => customer.id === animal.customerId)
+                    const clinic = locations.find(location => location.id === animal.locationId)
+                    return <Animal key={animal.id}
+                        location={clinic}
+                        customer={owner}
+                        animal={animal} />
+                })
+            }
+        </div>
+    )
+} 
+
+    
         
-    }
