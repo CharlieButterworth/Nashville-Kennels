@@ -7,16 +7,10 @@
       "id": 1
     },
     {
-      "name": "cb",
+      "name": "Dog",
       "customerId": 1,
-      "locationId": 1,
+      "locationId": 2,
       "id": 2
-    },
-    {
-      "name": "Camden",
-      "customerId": 1,
-      "locationId": 1,
-      "id": 3
     }
   ],
   "customers": [
@@ -31,28 +25,20 @@
     {
       "id": 1,
       "name": "Jeremy Bakker",
+      "animalId": 2,
       "locationId": 2
-    },
-    {
-      "id": 2,
-      "name": "Chuck",
-      "locationId": 2
-    },
-    {
-      "id": 3,
-      "name": "Hugh Freeze",
-      "locationId": 1
-    },
-    {
-      "id": 4,
-      "name": "John Colin",
-      "locationId": 1
     },
     {
       "name": "Charlie",
       "locationId": 1,
       "animalId": 1,
       "id": 5
+    },
+    {
+      "name": "Tucker",
+      "locationId": 1,
+      "animalId": 1,
+      "id": 6
     }
   ],
   "locations": [

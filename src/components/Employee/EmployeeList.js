@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react"
 import { LocationContext } from "../Location/LocationProvider"
 import { Employee } from "./Employee"
 import { EmployeeContext } from "./EmployeeProvider"
-
+import { Link } from "react-router-dom"
 
 export const EmployeeList = (props) => {
   // This state changes when `getEmployees()` is invoked below
@@ -25,8 +25,14 @@ export const EmployeeList = (props) => {
             Add Employee
         </button>
         <article className="employeeList">
-            {employees.map(employee => <Employee key={employee.id} employee={employee} />)}
-        </article>
-    </div>
-)
+        {
+                    employees.map(employee => {
+                        return <Link key={employee.id} to={`/employees/${employee.id}`}>
+                            <h3>{employee.name}</h3>
+                        </Link>
+                    })
+                }
+            </article>
+        </div>
+    )
 }
