@@ -11,6 +11,12 @@
       "customerId": 1,
       "locationId": 2,
       "id": 2
+    },
+    {
+      "name": "suzy",
+      "customerId": 2,
+      "locationId": 1,
+      "id": 3
     }
   ],
   "customers": [
