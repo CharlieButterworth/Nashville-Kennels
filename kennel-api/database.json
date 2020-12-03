@@ -1,22 +1,22 @@
 {
   "animals": [
     {
-      "name": "Cam",
-      "customerId": 1,
-      "locationId": 2,
-      "id": 1
-    },
-    {
       "name": "Dog",
       "customerId": 1,
       "locationId": 2,
       "id": 2
     },
     {
-      "name": "suzy",
+      "name": "Steve",
       "customerId": 2,
       "locationId": 1,
       "id": 3
+    },
+    {
+      "name": "Cam",
+      "customerId": 2,
+      "locationId": 2,
+      "id": 4
     }
   ],
   "customers": [
@@ -36,21 +36,9 @@
   "employees": [
     {
       "name": "Jeremy Bakker",
-      "locationId": 2,
       "animalId": 2,
-      "id": 1
-    },
-    {
-      "name": "Charlie",
-      "locationId": 1,
-      "animalId": 1,
-      "id": 5
-    },
-    {
-      "name": "Tucker",
-      "locationId": 1,
-      "animalId": 1,
-      "id": 6
+      "id": 1,
+      "locationId": 2
     }
   ],
   "locations": [
