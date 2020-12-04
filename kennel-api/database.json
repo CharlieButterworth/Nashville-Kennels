@@ -4,19 +4,22 @@
       "name": "Dog",
       "customerId": 1,
       "locationId": 2,
-      "id": 2
+      "id": 2,
+      "treatment": ""
     },
     {
       "name": "Steve",
       "customerId": 2,
       "locationId": 1,
-      "id": 3
+      "id": 3,
+      "treatment": ""
     },
     {
       "name": "Cam",
       "customerId": 2,
       "locationId": 2,
-      "id": 4
+      "id": 4,
+      "treatment": ""
     }
   ],
   "customers": [
