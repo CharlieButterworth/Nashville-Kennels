@@ -1,11 +1,11 @@
 {
   "animals": [
     {
-      "name": "Dog",
-      "customerId": 1,
-      "locationId": 2,
       "id": 2,
-      "treatment": ""
+      "name": "Dogggie",
+      "locationId": 2,
+      "treatment": "He needs meds every night",
+      "customerId": 2
     },
     {
       "name": "Steve",
